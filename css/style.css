@@ -37,7 +37,7 @@
     height: 200px;
     position: relative;
     left: 10%;
-    top: 34%;
+    top: 30%;
 }
 
 .left .content-button{
@@ -68,8 +68,21 @@
     color: #fff;
 }
 
+button:hover{
+    background: #ec1321;
+    color: #fff;
+    transition: 0.2s ease;
+}
 
+.right{
+    width: 30%;
+    height: 100%;
+    right: 0;
+    background: #ec1321;
+    position: absolute;
+}
 .container img{
     position: relative;
     height: 30px;
 }
+
